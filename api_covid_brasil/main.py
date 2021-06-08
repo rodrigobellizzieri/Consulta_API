@@ -10,7 +10,7 @@ password = 'qlto5t&7r_@+#Tlstigi'
 r = requests.get(url, auth=HTTPBasicAuth(user, password))
 
 resultado = r.json()
-
-
+print(resultado)
+"""
 for i in resultado['hits']['hits']:
-    print(i['_source']['vacina_lote'])
+    print(i['_source']['vacina_lote'])"""
